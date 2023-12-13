@@ -14,6 +14,7 @@ import {
 } from '@mui/joy';
 import { getCheckpointList, postTxt2img } from "./api/post-txt2img.js";
 import { styled } from '@mui/joy/styles';
+import RamViewer from "./components/ram-viewer/ram-viewer.jsx";
 
 function App () {
   const Item = styled(Sheet)(({theme}) => ({
@@ -88,6 +89,7 @@ function App () {
             )}
         </Grid>) : null}
         <Stack>
+          {/*<RamViewer />*/}
           <Slider
             aria-labelledby="一次多少张"
             aria-label="Small steps"
