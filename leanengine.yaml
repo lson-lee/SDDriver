@@ -1,0 +1,4 @@
+build:
+  - echo 'start building'
+  - pnpm run build
+  - echo 'build end'
